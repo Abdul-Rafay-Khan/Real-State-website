@@ -25,7 +25,7 @@ const Navbar = () => {
     </div>
 
     {/*   responsive Navbar */}
-    <div className={nav ? ' h-screen w-[300px] absolute top-0 left-0 bg-white duration-300':'absolute left-[-100%]'}>
+    <div className={nav ? ' h-screen w-[300px] absolute z-20 top-0 left-0 bg-white duration-300':'absolute left-[-100%]'}>
         <div className=' flex flex-col gap-6 p-4 pt-10 md:hidden font-semibold'>
             <a onClick={()=>setNav(!nav)} href="#Home">Home</a>
             <a onClick={()=>setNav(!nav)} href="#About">About</a>
