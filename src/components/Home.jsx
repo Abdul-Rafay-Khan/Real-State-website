@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 import header from "../assets/header_img.png"
 const Home = () => {
   return (
-    <div id='Home' className='  w-full bg-cover bg-center overflow-hidden  h-screen relative '  style={{ backgroundImage: "url('/header_img.png')" }}>
+    <div id='Home' className='  w-full bg-cover bg-center overflow-hidden  h-screen relative '  >
 
 <div className=' absolute z-20 w-full'>
 <  Navbar />
